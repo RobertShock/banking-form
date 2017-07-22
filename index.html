@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Loan Application Form</title>
+		<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+	<section>
+        <h1> Personal Information Needed for Loan Application </h1>
+    </section>
+	    <form>
+			First name:<br>
+				<input type="text" name="firstName"><br>
+			Middle initial:<br>
+				<input type="text" name="middleInital"><br>
+			Last name:<br>
+				<input type="text" name="lastName"><br>
+			Address:<br>
+				<input type="text" name="address"><br>
+			Occupation:<br>
+				<input type="text" name="occupation"><br>
+			Employer:<br>
+				<input type="text" name="employer"><br>
+			Employer address:<br>
+				<input type="text" name="employerAddress"><br><br>
+			Type of loan:<br>
+				<select name="loanType">
+					<option value="commercial">Commercial</option>
+					<option value="realEstate">Real Estate</option>
+					<option value="personal">Personal</option>
+					<option value="mortgage">Mortgage</option>
+				</select><br><br>
+			Requested loan amount:<br>
+				<input type="text" name="requestedLoanAmount"><br><br>
+			Loan Length:<br>
+				<input type="radio" name="loanLength" value="5 years" checked> 5 Years<br>
+				<input type="radio" name="loanLength" value="15 years"> 15 Years<br>
+				<input type="radio" name="loanLength" value="20 years"> 20 Years<br><br>
+			Select any/all applicable special conditions:<br>
+				<input type="checkbox" value="downPayment"> I have a down payment<br>
+				<input type="checkbox" value="outOfState"> Out-of-state resident<br>
+				<input type="checkbox" value="married"> Married<br>
+				<input type="checkbox" value="cosigner"> Loan will be co-signed<br><br>
+			Additional comments:<br>
+				<textarea name="comment" form="usrform"></textarea><br><br>
+			Contact information:<br>
+				email address:<input type="text" name="emailAddress"><br>
+				Telephone number:<input type="text" name="telephoneNumber"><br>
+				LinkedIn URL:<input type="text" name="linkedIn"><br><br>
+			<input type="submit" value="Submit">
+		</form>
+	<footer>© 2017 R. F. Shock</footer>
+</body>
+
+</html>

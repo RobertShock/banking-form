@@ -1,0 +1,20 @@
+h1 {
+	text-align: center;
+}
+
+body {
+	background-color: lightblue;
+}
+
+form {
+	border: 1px solid black;
+	padding: 30px;
+	font-style: oblique; 
+}
+
+footer {
+	font-weight: 1em;
+	text-align: center;
+	color: red;
+}
+
